@@ -17,7 +17,7 @@ typedef struct st state;
 #define WIDTH 5
 #define HEIGHT 6
 struct st {
-  char board[MAXROWS][WIDTH + 1];  // +1 for null terminator
-  int rows;
+  char board[MAXROWS][WIDTH + 1];
+  int currentHeight;
 };
 typedef struct st state;
